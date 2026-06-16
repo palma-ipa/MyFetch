@@ -1,6 +1,7 @@
 # myfetch
 
-A lightweight and fast system fetch tool for Linux written in Go. No useless bloat, just clean, instant system specs.
+A lightweight and fast system fetch tool for Linux written in Go. 
+No useless bloat, just clean, instant system specs.
 
 ---
 
