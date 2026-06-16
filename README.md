@@ -16,7 +16,7 @@ A lightweight, blazingly fast system fetch tool for Linux written in Go, featuri
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/myfetch.git
+git clone https://github.com/palma-ipa/myfetch.git
 cd myfetch
 go build -ldflags="-s -w" -o myfetch main.go
 sudo cp myfetch /usr/local/bin/
