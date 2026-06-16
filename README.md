@@ -22,6 +22,9 @@ No useless bloat, just clean, instant system specs.
 - GPU Model
 - Memory Usage (`Used MiB / Total MiB (%)`)
 
+## Example
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/60aea38f-a13f-41a3-960e-c9449705db01" />
+
   
 ## Installation & Setup
 
