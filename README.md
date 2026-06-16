@@ -1,29 +1,24 @@
 # myfetch
 
-A lightweight, blazingly fast system fetch tool for Linux written in Go, featuring a clean ASCII banner and no bloated heavy graphics.
+A lightweight and fast system fetch tool for Linux written in Go. No ASCII art, no bloat—just clean, instant system specs.
 
-## Features
+---
 
-- **User** – current username and hostname
-- **OS** – Linux distribution name from `/etc/os-release`
-- **Kernel** – kernel release version
-- **Uptime** – formatted uptime in hours and minutes
-- **Shell** – user’s default shell
-- **CPU** – processor model name
-- **GPU** – detected GPU vendor (AMD/NVIDIA/Intel)
-- **Memory** – used / total RAM with percentage
+## Dependencies
 
-## Installation
+- **Go** (1.21+) - Required for compiling the source code.
+- **pciutils** (`lspci`) - Required for exact GPU model detection.
+
+---
+
+## Installation & Setup
 
 ```bash
-git clone https://github.com/palma-ipa/myfetch.git
+git clone [https://github.com/palma-ipa/myfetch.git](https://github.com/palma-ipa/myfetch.git)
 cd myfetch
 go build -ldflags="-s -w" -o myfetch main.go
 sudo cp myfetch /usr/local/bin/
-```
 
-## Usage
+Usage
 
-```bash
 myfetch
-```
