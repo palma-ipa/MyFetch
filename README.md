@@ -33,7 +33,10 @@ git clone [https://github.com/palma-ipa/myfetch.git](https://github.com/palma-ip
 cd myfetch
 go build -ldflags="-s -w" -o myfetch main.go
 sudo cp myfetch /usr/local/bin/
+```
 
-Usage
+## Usage
 
+```bash
 myfetch
+```
