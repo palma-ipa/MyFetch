@@ -10,7 +10,18 @@ A lightweight and fast system fetch tool for Linux written in Go. No ASCII art, 
 - **pciutils** (`lspci`) - Required for exact GPU model detection.
 
 ---
+## Displayed Specs
 
+- User (`user@hostname`)
+- OS Name
+- Kernel Version
+- Uptime
+- Shell Name
+- CPU Model
+- GPU Model
+- Memory Usage (`Used MiB / Total MiB (%)`)
+
+  
 ## Installation & Setup
 
 ```bash
