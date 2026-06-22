@@ -29,7 +29,7 @@ No useless bloat, just clean, instant system specs.
 ## Installation & Setup
 
 ```bash
-git clone [https://github.com/palma-ipa/myfetch.git](https://github.com/palma-ipa/myfetch.git)
+git clone https://github.com/palma-ipa/myfetch.git
 cd myfetch
 go build -ldflags="-s -w" -o myfetch main.go
 sudo cp myfetch /usr/local/bin/
